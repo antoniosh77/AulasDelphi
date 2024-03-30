@@ -8,7 +8,6 @@ uses
 
 type
   TForm2 = class(TForm)
-    Button1: TButton;
 
     procedure Button1Click(Sender: TObject);
   private
