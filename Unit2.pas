@@ -8,8 +8,6 @@ uses
 
 type
   TForm2 = class(TForm)
-
-    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -25,10 +23,5 @@ implementation
 
 
 { TForm2 }
-
-procedure TForm2.Button1Click(Sender: TObject);
-begin
-  //
-end;
 
 end.
