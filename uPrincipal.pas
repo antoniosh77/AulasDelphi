@@ -23,6 +23,8 @@ implementation
 
 {$R *.dfm}
 
+uses Unit2;
+
 procedure TForm1.Button1Click(Sender: TObject);
 begin
     form2.ShowModal;

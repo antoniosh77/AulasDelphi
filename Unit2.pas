@@ -8,6 +8,8 @@ uses
 
 type
   TForm2 = class(TForm)
+    Button1: TButton;
+
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -22,5 +24,12 @@ implementation
 
 {$R *.dfm}
 
+
+{ TForm2 }
+
+procedure TForm2.Button1Click(Sender: TObject);
+begin
+  //
+end;
 
 end.
