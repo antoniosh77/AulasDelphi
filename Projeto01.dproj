@@ -98,11 +98,11 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="uPrincipal.pas">
+        <DCCReference Include="TelaPrincipal.pas">
             <Form>Form1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="Unit2.pas">
+        <DCCReference Include="SegundaTela.pas">
             <Form>Form2</Form>
             <FormType>dfm</FormType>
         </DCCReference>

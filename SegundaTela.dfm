@@ -1,7 +1,7 @@
 object Form2: TForm2
   Left = 0
   Top = 0
-  Caption = 'uTela2'
+  Caption = 'SegundaTela'
   ClientHeight = 442
   ClientWidth = 628
   Color = clBtnFace

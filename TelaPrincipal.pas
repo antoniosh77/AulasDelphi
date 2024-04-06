@@ -1,10 +1,10 @@
-unit uPrincipal;
+unit TelaPrincipal;
 
 interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, SegundaTela;
 
 type
   TForm1 = class(TForm)
@@ -23,12 +23,10 @@ implementation
 
 {$R *.dfm}
 
-uses Unit2;
-
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-    form2.ShowModal;
-    form2.free;
+     Form2.ShowModal;
+     Form2.Free;
 end;
 
 end.

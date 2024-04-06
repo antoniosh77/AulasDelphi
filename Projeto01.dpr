@@ -2,8 +2,8 @@ program Projeto01;
 
 uses
   Vcl.Forms,
-  uPrincipal in 'uPrincipal.pas' {Form1},
-  Unit2 in 'Unit2.pas' {Form2};
+  TelaPrincipal in 'TelaPrincipal.pas' {Form1},
+  SegundaTela in 'SegundaTela.pas' {Form2};
 
 {$R *.res}
 
